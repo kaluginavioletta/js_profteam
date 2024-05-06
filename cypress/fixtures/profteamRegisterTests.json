@@ -1,0 +1,17 @@
+{
+    "main_url": "https://dev.profteam.su/registration",
+    "login": "Teeeeeest",
+    "email": "teeeeeest123@mail.com",
+    "password": "Test123",
+    "password1": "Test123",
+    "surname": "Иванов",
+    "name": "Иван",
+    "patronymic": "Иванович",
+
+    "login_correct": "Teeeeeeeeeeeeet",
+    "email_correct": "teeeeeeeeeeeeet123@mail.com",
+    "password_correct": "Teeeeeeeeeeeeet123",
+    "incorrect_surname": "Ivanov",
+    "incorrect_name": "Ivan",
+    "incorrect_patronymic": "Ivanovich"
+}

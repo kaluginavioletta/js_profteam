@@ -1,6 +1,6 @@
 describe('Profteam Test', () => {
 
-    it('Positive Employer Test', () => {
+    it('Negative Employer Test', () => {
         cy.fixture('profteamLoginEmployerTests').then(data => {
             cy.log('Переход на страницу авторизации')
             cy.visit(data.main_url)

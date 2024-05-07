@@ -1,4 +1,4 @@
-describe('Profteam Test', () => {
+describe('Profteam Student Test', () => {
 
     it('Positive Student Test', () => {
         cy.fixture('profteamStudentTests').then(data => {

@@ -22,7 +22,8 @@ describe('Profteam Test', () => {
             cy.get('a[href="/notification"]')
                 .click(
                     { multiple: true, force: true }
-                );
+                )
+            cy.wait(20000);
     
             cy.log('Клик по кнопке "Просмотреть"')
             cy.get('button.button__background-color-light-blue.button__size-small.button__color-white.notification-list-item__button.notification-list-item__button--read', { timeout: 45000 })

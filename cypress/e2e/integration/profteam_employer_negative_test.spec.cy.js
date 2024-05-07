@@ -44,12 +44,12 @@ describe('Profteam Test', () => {
 
             cy.log('Клик из выпадающего списка');
 
-            cy.get('div.search-input__wrapper-result') // найдите элемент после клика
-                .find('div') // найдите все вложенные div
-                .first() // выберите первый из них
+            cy.get('div.search-input__wrapper-result')
+                .find('div')
+                .first()
                 .click(
                     { multiple: true }
-                ); // кликаем на этот элемент
+                ); 
             cy.wait(5000);
 
             cy.log('Клик по кнопке "Выбрать компанию"')
